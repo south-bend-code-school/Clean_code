@@ -1,0 +1,65 @@
+body {  background-color: LightBlue;
+margin: 0 auto;
+}
+#logo {padding-left: 1%;}
+#header {background-image: url("http://i.huffpost.com/gen/1716876/images/o-ATLANTA-TRAFFIC-facebook.jpg");
+background-position: center;background-repeat: no-repeat;background-attachment: fixed; height: 500px;}.about {
+padding-top: 1%;
+background-color: #fff3e0;  font-size: 17px;
+padding-bottom: 1%;
+padding-left: 1.2%;
+padding-right: 1.2%;
+}
+.whiteBackground {
+background-color: white;height: 600px;
+}#centerImage {
+background-image: url('coca.png');background-position: center;background-repeat: no-repeat;
+height: 550px;
+
+background-size: contain;
+
+
+
+}
+button {color: white !important;
+  background-color:#ff5252;
+transition: 5s;
+}
+#firstButton{  margin-right: .5%;
+
+  height: 200px;
+}
+#secondButton{
+height: 200px;margin-right: .5%;
+}
+#thirdButton{
+height: 200px;
+margin-right: .5%;
+}
+#fourthButton{
+  height: 200px;
+  margin-right: .5%;
+}#fifthButton{height: 200px;
+}
+button:hover {
+  background-color:#ff80ab;
+}
+li.indicator-item {
+background-color: lightblue !important;
+}
+.formBackground {
+  background-color: #fff3e0;
+  height: 430px;
+}
+#world {
+  position: absolute;
+  z-index: 100;
+  padding-left: 40%;
+}
+
+@media only screen and (max-device-width: 736px){
+  #world {
+    padding-left:5%;
+  }
+
+}
